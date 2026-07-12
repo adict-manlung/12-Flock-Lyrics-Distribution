@@ -7,4 +7,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/12-Flock-Lyrics-Distribution/',
+  // repo: https://github.com/adict-manlung/12-Flock-Lyrics-Distribution
 })
