@@ -1,0 +1,68 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #181511;
+  color: #F3EFE6;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #181511;
+}
+::-webkit-scrollbar-thumb {
+  background: #332E25;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B7AF9F;
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid #E0A526;
+  outline-offset: 2px;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, input, select, textarea {
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #B7AF9F;
+  opacity: 0.7;
+}
+
+select option {
+  background: #211D17;
+  color: #F3EFE6;
+}
+
+/* Mobile responsive base */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}

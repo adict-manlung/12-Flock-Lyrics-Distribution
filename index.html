@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="12Flock — Distribute your lyrics and music to Spotify, Apple Music, TikTok, Instagram, WhatsApp and more. Your first release is free." />
+    <meta property="og:title" content="12Flock — Lyric & Music Distribution" />
+    <meta property="og:description" content="Send your words out with the flock. Distribute lyrics and tracks to all major platforms from one upload." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#181511" />
+    <title>12Flock — Lyric & Music Distribution</title>
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
